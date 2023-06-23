@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <system>
+        <section id="SaigonTechnology_Behavior" translate="label" type="text" sortOrder="311" showInDefault="1"
+                 showInWebsite="1" showInStore="0">
+            <label>Behaviors</label>
+        </section>
+    </system>
+</config>
+

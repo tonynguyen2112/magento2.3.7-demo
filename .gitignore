@@ -1,4 +1,3 @@
-/sources/*
 !/sources/.keepme
 /conf/nginx/conf.d/*
 !/conf/nginx/conf.d/.keepme

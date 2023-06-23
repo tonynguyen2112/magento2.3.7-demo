@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="SaigonTechnology\Behavior\Api\BehaviorRepositoryInterface"
+                type="SaigonTechnology\Behavior\Model\BehaviorRepository"
+    />
+    <preference for="SaigonTechnology\Behavior\Api\BehaviorRepositoryInterface" type="SaigonTechnology\Behavior\Model\BehaviorRepository" />
+    <preference for="SaigonTechnology\Behavior\Api\Data\BehaviorInterface" type="SaigonTechnology\Behavior\Model\Behavior" />
+    <preference for="SaigonTechnology\Behavior\Api\Data\BehaviorSearchResultsInterfaceFactory" type="Magento\Framework\Api\SearchResults" />
+</config>

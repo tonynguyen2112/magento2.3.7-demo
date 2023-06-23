@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SaigonTechnology_Behavior::user_behavior" title="Behaviors" translate="title" module="SaigonTechnology_Behavior" sortOrder="80" parent="Magento_Sales::sales_operation" action="behavior/behaviors" resource="SaigonTechnology_Behavior::behaviors"/>
+    </menu>
+</config>
