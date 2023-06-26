@@ -8,7 +8,7 @@
         <observer name="BehaviorProductAddToCart" instance="SaigonTechnology\Behavior\Observer\Product\AddToCart" />
     </event>
 
-    <event name="checkout_submit_before">
+    <event name="checkout_onepage_controller_success_action">
         <observer name="BehaviorProductCheckoutComplete" instance="SaigonTechnology\Behavior\Observer\Product\CheckoutComplete" />
     </event>
 </config>

@@ -8,4 +8,18 @@
     <preference for="SaigonTechnology\Behavior\Api\BehaviorRepositoryInterface" type="SaigonTechnology\Behavior\Model\BehaviorRepository" />
     <preference for="SaigonTechnology\Behavior\Api\Data\BehaviorInterface" type="SaigonTechnology\Behavior\Model\Behavior" />
     <preference for="SaigonTechnology\Behavior\Api\Data\BehaviorSearchResultsInterfaceFactory" type="Magento\Framework\Api\SearchResults" />
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="saigontechnology_behavior_behavior_listing_data_source" xsi:type="string">SaigonTechnology\Behavior\Model\ResourceModel\Behavior\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="SaigonTechnology\Behavior\Model\ResourceModel\Behavior\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">saigontechnology_behavior_behavior</argument>
+            <argument name="resourceModel" xsi:type="string">SaigonTechnology\Behavior\Model\ResourceModel\Behavior</argument>
+        </arguments>
+    </virtualType>
 </config>

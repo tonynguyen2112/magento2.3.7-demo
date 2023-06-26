@@ -16,7 +16,7 @@ class Behavior extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('behavior', 'id');
+        $this->_init('saigontechnology_behavior_behavior', 'id');
         $this->_useIsObjectNew = true;
     }
 }

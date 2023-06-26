@@ -7,7 +7,7 @@
 -->
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
-    <table name="behavior" resource="default" engine="innodb" comment="Behavior End User for Product Table">
+    <table name="saigontechnology_behavior_behavior" resource="default" engine="innodb" comment="Behavior End User for Product Table">
         <column xsi:type="int" name="id" padding="10" unsigned="true" nullable="false" identity="true"
                 comment="Behavior ID"/>
         <column xsi:type="varchar" name="type" nullable="false" length="20" comment="Type of behavior"/>
